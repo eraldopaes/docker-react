@@ -6,4 +6,4 @@ before_install:
   - docker build -t eraldopaes/docker-react -f Dockerfile.dev .
 
 script: 
-  - docker run eraldopaes/docker-react npm run tests -- --coverage
+  - docker run eraldopaes/docker-react npm run test -- --coverage
